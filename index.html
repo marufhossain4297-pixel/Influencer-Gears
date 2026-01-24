@@ -8,18 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="poppins-font">
     <header>
         <nav class="menuvar">
+            <i class="fa-solid fa-bars"></i>
             <h1>Influencer products</h1>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Sing up</a></li>
-                <li><a href="#">Log In</a></li>
+                <li><a href="#">Log In</a></li> 
                 <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
                 <span id="shopping-cart" class="material-symbols-outlined">shopping_cart</span>
             </ul>
@@ -27,7 +29,7 @@
     </header>
 
     <main>
-        <section  class="banner">
+        <section id="hide"  class="banner">
             <div class="main-camera">
                 <img class="cercle" src="./images/Circle design.svg" alt="">
                 <img class="camera" src="./images/main-camera.png" alt="">
@@ -39,7 +41,7 @@
             </div>
         </section>
 
-        <section class="logo-section">
+        <section id="hide" class="logo-section">
             <div class="logo">
                 <hr>
                 <img src="./logos/Alibaba.svg" alt="">
@@ -53,7 +55,7 @@
             </div>
         </section>
 
-        <section class="card-section">
+        <section id="hide" class="card-section">
             <h2>Popular Collection</h2>
             <div class="all-card">
                 <div class="card-1">
@@ -148,11 +150,11 @@
             </div>
         </section>
 
-        <div>
+        <div id="hide">
             <p class="see-more">See More <i id="right-arrow" class="fa-solid fa-arrow-right"></i> </button></p>
         </div>
 
-        <section class="featured-section">
+        <section id="hide" class="featured-section">
             <div class="featured-image">
                 <img src="./images/gear.png" alt="">
                 <div class="featured-text">
@@ -164,7 +166,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="hide">
         <div class="footer-text">
             <h1>Influencer products</h1>
             <p class="text-1">Copyright &COPY; 2020  influencer products</p>

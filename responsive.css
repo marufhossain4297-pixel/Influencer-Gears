@@ -1,0 +1,9 @@
+@media screen and (max-width:576px) {
+    .menuvar{
+        margin: 0;
+        padding: 0;
+    }
+    .menu li{
+        display: none;
+    }
+}
