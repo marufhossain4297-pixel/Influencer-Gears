@@ -2,16 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-    margin-right: 120px;
-    margin-left: 120px;
-}
 .poppins-font {
   font-family: "Poppins", sans-serif;
 }
 /* shear color */
-
-p, h1, h2{
+.btn1, .btn-2, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-8, .footer-icons, #search-icon, #shopping-cart:hover{
+    cursor: pointer;
+}
+p, h1, h2, .text{
     color: #3A3A3A;
 }
 /* navbar styles */
@@ -21,8 +19,9 @@ p, h1, h2{
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    border: 2px solid red;
     padding: 0;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 .menuvar h1{
     font-size: 24px;
@@ -50,12 +49,13 @@ p, h1, h2{
 
 .banner{
     display: flex;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 .cercle{
     position: absolute;
     left: 725px;
     margin-top: 50px;
-    border: 1px solid red;
     margin-left: 135px;
 }
 .camera{
@@ -67,7 +67,6 @@ p, h1, h2{
     max-width: 582px;
     margin-top: 185.8px;
     padding-top: 0;
-    border: 1px solid red;
 }
 .banner-text h1{
     font-size: 52px;
@@ -100,11 +99,13 @@ p, h1, h2{
     margin-left: 70px;
     margin-top: 170px;
     margin-bottom: 100px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 hr{
     border: none;
     height: 1px;
-    background-color: #c0ccda37;
+    background-color: #c0ccda88;
     padding: 0 auto;
 }
 .logo img{
@@ -115,8 +116,44 @@ hr{
 }
 
 /* Card section */
+ .card-1{
+    grid-area: card-1;
+ }
+ .card-2{
+    grid-area: card-2;
+ }
+ .card-3{
+    grid-area: card-3;
+ }
+ .card-4{
+    grid-area: card-4;
+ }
+ .card-5{
+    grid-area: card-5;
+ }
+ .card-6{
+    grid-area: card-6;
+ }
+ .card-7{
+    grid-area: card-7;
+ }
+ .card-8{
+    grid-area: card-8;
+ }
+ .card-9{
+    grid-area: card-9;
+ }
+ .all-card{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "card-1 card-2 card-3"
+    "card-4 card-5 card-6"
+    "card-7 card-8 card-9";
+ }
 .card-section{
-    border: 1px solid red;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 .all-text{
     padding-left: 15px;
@@ -127,20 +164,22 @@ h2{
     font-size: 28px;
     font-weight: 600;
 }
-.card-1{
-    border: 2px solid red;
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9{
+    border-radius: 5px;
     width: 329px;
     height: 476px;
+    box-shadow: 0 0 40px 0 #00000054;
 }
-.card-1 img{
+.card-1 img,.card-2 img, .card-3 img, .card-4 img, .card-5 img, .card-6 img, .card-7 img, .card-8 img, .card-9 img{
     padding: 17px 15px;
 }
-.card-1 h5{
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 h5{
     font-size: 28px;
     font-weight: 500;
 }
 .prize{
     font-size: 24px;
+    font-family: "Inter", sans-serif;
 }
 .review i #star{
     display: flex;
@@ -148,4 +187,91 @@ h2{
 #star{
     color:#F29B2E;
     font-size: 12px;
+}
+.review{
+    padding-bottom: 6px;
+    padding-top: 4px;
+}
+.ratting{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 8px;
+  font-family: "Roboto", sans-serif;
+}
+.text{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    max-width: 196px;
+    height: 61px;
+}
+.see-more{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/* featured section styles */
+
+.featured-section{
+    margin-bottom: 100px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.featured-image h1{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 60px;
+    padding-top: 23px;
+}
+.featured-image p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+}
+.featured-image{
+    display: flex;
+}
+.featured-text{
+    padding-left: 96px;
+}
+.featured-text p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    max-width: 501px;
+}
+.btn-2{
+    color: white;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 8px 10px 24px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+/* footer section styles */
+
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    height: 239px;
+}
+.footer-text h1{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 3px;
+}
+.text-1 {
+    color: white;
+    padding-bottom: 3px;
+}
+.text-2{
+    padding-bottom: 17px;
+}
+.footer-icons{
+    color: white;
 }
