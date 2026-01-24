@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 /* shear color */
-.btn1, .btn-2, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-8, .footer-icons, #search-icon, #shopping-cart:hover{
+.btn1, .btn-2, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-8, .footer-icons, #search-icon, #shopping-cart, .see-more:hover{
     cursor: pointer;
 }
 p, h1, h2, .text{
@@ -56,11 +56,11 @@ p, h1, h2, .text{
     position: absolute;
     left: 725px;
     margin-top: 50px;
-    margin-left: 135px;
+    margin-left: 90px;
 }
 .camera{
     position: absolute;
-    left: 900px;
+    left: 850px;
     top: 169px;
 }
 .banner-text{
@@ -145,6 +145,7 @@ hr{
  }
  .all-card{
     display: grid;
+    margin-left: 40px;
     gap: 30px;
     grid-template-areas: 
     "card-1 card-2 card-3"
@@ -210,6 +211,7 @@ h2{
     font-size: 16px;
     font-weight: bold;
     text-align: right;
+    margin-right:135px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
