@@ -1,4 +1,7 @@
 @media screen and (max-width:576px) {
+    #hide{
+        display: none;
+    }
     .menuvar{
         margin: 0;
         padding: 0;

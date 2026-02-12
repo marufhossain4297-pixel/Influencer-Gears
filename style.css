@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-#hide{
-    display: none;
-}
 .poppins-font {
   font-family: "Poppins", sans-serif;
 }
@@ -149,7 +146,7 @@ hr{
  }
  .all-card{
     display: grid;
-    margin-left: 40px;
+    justify-self: center;
     gap: 30px;
     grid-template-areas: 
     "card-1 card-2 card-3"
